@@ -2,6 +2,9 @@
     <string name="app_name">Contador</string>
     <string name="titulo">Contador</string>
     <string name="btn_sumar">Sumar</string>
+    <string name="btn_restar">restar</string>
     <string name="btn_reiniciar">Reiniciar</string>
     <string name="btn_Detalle">Detalle</string>
+    <string name="TextNombre">TextNombre</string>
+    <string name="btn_web">btn_web</string>
 </resources>

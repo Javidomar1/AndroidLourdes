@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Restar"
+        android:text="@string/btn_restar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnSumar" />
@@ -71,9 +71,29 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="8dp"
-        android:text="Detalle"
+        android:text="@string/btn_Detalle"
         app:layout_constraintEnd_toStartOf="@id/guiaCentro"
         app:layout_constraintTop_toBottomOf="@id/tvContador" />
+    <!-- Fila 2: Detalle - Web -->
+    <Button
+        android:id="@+id/btnDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_Detalle"
+        app:layout_constraintEnd_toStartOf="@id/btnWeb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRestar" />
+
+    <!-- NUEVO: genera binding.btnWeb -->
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnDetalle"
+        app:layout_constraintTop_toTopOf="@id/btnDetalle" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guiaCentro"
